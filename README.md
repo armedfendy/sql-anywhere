@@ -50,7 +50,9 @@ Choosing a file:
 
 The extension is a thin wrapper around the SQL Anywhere C API, which it loads at
 runtime. The SQL Anywhere client (for example SQL Anywhere 17) must be installed
-on the machine:
+on the machine. The client installer can be downloaded from SAP:
+[SAP SQL Anywhere client download](https://help.sap.com/docs/SUPPORT_CONTENT/sqlany/3362971128.html).
+
 
 - Windows: `dbcapi.dll` must be on `PATH` (the SQL Anywhere installer adds `Bin64`/`Bin32`).
 - Linux: `libdbcapi.so` (NTS) or `libdbcapi_r.so` (ZTS) must be found by the
