@@ -1,0 +1,12 @@
+* text=auto
+
+# scripts must keep their native line endings on every checkout
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+# prebuilt binaries and archives
+*.dll    binary
+*.so     binary
+*.so.1   binary
+*.zip    binary
+*.tar.gz binary
